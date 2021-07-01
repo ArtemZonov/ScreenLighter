@@ -7,12 +7,93 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tvRed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="48dp"
+        android:text="select a flashlight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRed" />
+
+    <TextView
+        android:id="@+id/tvGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select a flashlight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btRed" />
+
+    <Button
+        android:id="@+id/btGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGreen" />
+
+    <TextView
+        android:id="@+id/tvYellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select a flashlight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btGreen" />
+
+    <Button
+        android:id="@+id/btYellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvYellow" />
+
+    <TextView
+        android:id="@+id/tvWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select a flashlight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btYellow" />
+
+    <Button
+        android:id="@+id/btWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="White"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvWhite" />
+
+    <TextView
+        android:id="@+id/tvBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select a flashlight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btWhite" />
+
+    <Button
+        android:id="@+id/btBlue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBlue" />
 </androidx.constraintlayout.widget.ConstraintLayout>
