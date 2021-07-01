@@ -4,96 +4,132 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#00BCD4"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tvRed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:text="select a flashlight"
+        android:layout_marginTop="36dp"
+        android:text="select a red flashlight"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btRed"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Red"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvRed" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <TextView
         android:id="@+id/tvGreen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="select a flashlight"
+        android:layout_marginTop="128dp"
+        android:text="select a green flashlight"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btRed" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
         android:id="@+id/btGreen"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Green"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#4CAF50"
+        app:layout_constraintEnd_toEndOf="@+id/tvGreen"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="@+id/tvGreen"
         app:layout_constraintTop_toBottomOf="@+id/tvGreen" />
 
     <TextView
         android:id="@+id/tvYellow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="select a flashlight"
+        android:layout_marginTop="16dp"
+        android:text="select a yellow flashlight"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btGreen" />
 
     <Button
         android:id="@+id/btYellow"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Yellow"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFEB3B"
+        android:bottomLeftRadius="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvYellow"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="@+id/tvYellow"
         app:layout_constraintTop_toBottomOf="@+id/tvYellow" />
 
     <TextView
         android:id="@+id/tvWhite"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="select a flashlight"
+        android:text="select a white flashlight"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btYellow" />
 
     <Button
         android:id="@+id/btWhite"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="White"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#FDFCFC"
+        app:layout_constraintEnd_toEndOf="@+id/tvWhite"
+        app:layout_constraintHorizontal_bias="0.854"
+        app:layout_constraintStart_toStartOf="@+id/tvWhite"
         app:layout_constraintTop_toBottomOf="@+id/tvWhite" />
 
     <TextView
         android:id="@+id/tvBlue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="select a flashlight"
+        android:layout_marginTop="12dp"
+        android:text="select a blue flashlight"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btWhite" />
 
     <Button
         android:id="@+id/btBlue"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Blue"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#2196F3"
+        app:layout_constraintEnd_toEndOf="@+id/tvBlue"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="@+id/tvBlue"
         app:layout_constraintTop_toBottomOf="@+id/tvBlue" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="375dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flashlight" />
+
+    <Button
+        android:id="@+id/btRed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:shape="oval"
+        app:layout_constraintEnd_toEndOf="@+id/tvRed"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="@+id/tvRed"
+        app:layout_constraintTop_toBottomOf="@+id/tvRed" />
 </androidx.constraintlayout.widget.ConstraintLayout>
