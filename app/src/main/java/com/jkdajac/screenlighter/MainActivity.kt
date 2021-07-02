@@ -15,19 +15,19 @@ btRed.setOnClickListener {
     startActivity(intent)
 }
         btGreen.setOnClickListener {
-            var intent = Intent (this, RedActivity::class.java)
+            var intent = Intent (this, GreenActivity::class.java)
             startActivity(intent)
         }
         btYellow.setOnClickListener {
-            var intent = Intent (this, RedActivity::class.java)
+            var intent = Intent (this, YellowActivity::class.java)
             startActivity(intent)
         }
         btBlue.setOnClickListener {
-            var intent = Intent (this, RedActivity::class.java)
+            var intent = Intent (this, BlueActivity::class.java)
             startActivity(intent)
         }
         btWhite.setOnClickListener {
-            var intent = Intent (this, RedActivity::class.java)
+            var intent = Intent (this, WhiteActivity::class.java)
             startActivity(intent)
         }
 
