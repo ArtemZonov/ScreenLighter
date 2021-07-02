@@ -10,9 +10,31 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var intent = Intent (this, RedActivity::class.java)
-        startActivity(intent)
-
+btRed.setOnClickListener {
+    var intent = Intent (this, RedActivity::class.java)
+    startActivity(intent)
+}
+        btGreen.setOnClickListener {
+            var intent = Intent (this, RedActivity::class.java)
+            startActivity(intent)
+        }
+        btYellow.setOnClickListener {
+            var intent = Intent (this, RedActivity::class.java)
+            startActivity(intent)
+        }
+        btBlue.setOnClickListener {
+            var intent = Intent (this, RedActivity::class.java)
+            startActivity(intent)
+        }
+        btWhite.setOnClickListener {
+            var intent = Intent (this, RedActivity::class.java)
+            startActivity(intent)
+        }
 
     }
+
+
+
 }
+
+
