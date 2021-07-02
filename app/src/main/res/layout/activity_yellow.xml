@@ -7,4 +7,13 @@
     android:background="#F8EB76"
     tools:context=".YellowActivity">
 
+    <ImageView
+        android:id="@+id/ivBackYellow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
 </androidx.constraintlayout.widget.ConstraintLayout>
